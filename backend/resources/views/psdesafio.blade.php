@@ -57,6 +57,7 @@
         <li><a target="_blank" href="https://dbeaver.io/download/">Instalação do DBeaver</a></li>
         <li><a target="_blank" href="https://code.visualstudio.com/">Instalação do VS Code</a></li>
         <li><a target="_blank" href="https://github.com/">Criar conta no GitHub</a></li>
+        <li><a target="_blank" href="https://github.com/">Criar conta no GitHub</a></li>
     </ul>
 </div>
 </body>
