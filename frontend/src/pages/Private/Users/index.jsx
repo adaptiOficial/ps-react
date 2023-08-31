@@ -133,11 +133,10 @@ export default function Users() {
         BaseApi.delete(`/users/${user.id}`)
           .then(res => {
             toast.success('User deleted successfully!');
-            requestData();
+            handlePagination(1)
           })
           .catch(err => {
             Swal.fire('Oops!', err?.data?.errors?.[0] || err?.data?.message || 'Ocorreu um erro ao deletar este usuário.', 'error');
-            setLoading(false);
           }).finally(() => setLoading(false));
       }
     });
